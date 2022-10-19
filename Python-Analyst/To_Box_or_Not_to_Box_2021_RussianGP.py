@@ -11,7 +11,7 @@ import pandas as pd
 plotting.setup_mpl()
 
 # Enable the cache
-ff1.Cache.enable_cache('./cache')
+ff1.Cache.enable_cache('././cache')
 
 # Get rid of some pandas warnings that are not relevant for us at the moment
 pd.options.mode.chained_assignment = None

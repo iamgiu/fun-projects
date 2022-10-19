@@ -6,7 +6,7 @@ from matplotlib.pyplot import figure
 # Setup plotting
 plotting.setup_mpl()
 # Enable the cache
-ff1.Cache.enable_cache('./cache')
+ff1.Cache.enable_cache('././cache')
 
 # Load the session data
 race = ff1.get_session(2021, 'Zandvoort', 'R') # could range from “FP1” to “Q” and “R”
